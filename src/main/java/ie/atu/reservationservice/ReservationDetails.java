@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ReservationDetails {
-    private Long id;
+    private Long customerId;
     private String customerName;
     private String reservationTime;
 
