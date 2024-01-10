@@ -14,7 +14,7 @@ public class ReservationController {
         this.service = service;
     }
 
-    @PostMapping
+    @PostMapping("/reservations")
     public ReservationDetails createReservation(@RequestBody ReservationDetails details) {
         //  will add reservation creation logic after testing
         return  service.createReservation(details);
